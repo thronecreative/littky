@@ -1,0 +1,31 @@
+name = Pamela Littky Mobile
+description = Mobile theme for Pamela Littky.
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+;CSS
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/extras.css
+
+; JS
+;scripts[] = js/jquery.tooltips.js
+scripts[] = js/init.js
+
+; REGIONS
+regions[page_top] = Page top
+regions[header] = Header
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer_left] = Footer Left
+regions[footer_middle] = Footer Middle
+regions[footer_right] = Footer Right
+regions[footer_bottom] = Footer Bottom
+regions[page_bottom] = Page bottom
+
+; PANEL LAYOUTS
+plugins[panels][layouts] = layouts
